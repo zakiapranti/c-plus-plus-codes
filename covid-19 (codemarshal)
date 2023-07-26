@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+int N;
+cin>>N;
+if (N>=6)
+{
+ int p= (N/6)+1;
+    cout<<p<<endl;
+}
+else
+{
+     cout<<"1"<<endl;
+}
+return 0;
+}
